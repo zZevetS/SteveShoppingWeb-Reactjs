@@ -1,0 +1,54 @@
+.offer{
+    background-color: #8ca8e5 ;
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.offer-title{
+    margin-left: 40px;
+    font-size: 200%;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.col-2-left{
+    padding: 80px;
+    width: 45%;
+}
+.col-2-right{
+    width: 55%;
+    margin: 20px;
+}
+.offer-img{
+    width: 65%;
+    height: 80%;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+.small{
+    color: #555;
+}
+.item-title{
+    width: 95%;
+    text-align: justify;
+}
+.item-des{
+    text-align: justify;
+    width: 80%;
+}
+.buyoffer-btn{
+    align-self: center;
+    width: 100%;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #95d3f0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.buyoffer-btn:hover{
+    background: #11324D;
+    color: rgb(255, 255, 255);
+}

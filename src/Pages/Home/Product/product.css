@@ -1,6 +1,6 @@
 .title{
     text-align: center;
-    margin: 0 auto 80px;
+    margin: 0 auto 50px;
     position: relative;
     line-height: 60px;
     color: #000000;
@@ -40,9 +40,10 @@
     padding: 20px;
     transform: translateY(-10px);
     box-shadow: 0 10px 21px rgba(0,0,0,0.18);
+    cursor: pointer;
 }
 .product-image{
-    width: 300px;
+    width: 310px;
     height: 350px;
     justify-content: center;
 }

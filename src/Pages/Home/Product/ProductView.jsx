@@ -20,7 +20,7 @@ function ProductView (){
             <h2 className="title">Feature Products</h2>
            <div className='container-product'>
                 {getProduct.map((curValue, index) => {
-                return <div className="small-container-product">
+                return <div key={index} className="small-container-product">
                             <div className="row">
                                 <div className="col-4">
                                     <img className="product-image" src={curValue.image}/>
