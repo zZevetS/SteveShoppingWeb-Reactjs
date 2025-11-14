@@ -1,4 +1,7 @@
 import "../Footer/footer.css"
+import Download01 from '../../asset/appstore.png'
+import Download02 from '../../asset/Google-Play.png'
+import BrandLogo from '../../asset/amazon.png'
 function Footer(){
     return (
         <div>
@@ -9,12 +12,12 @@ function Footer(){
                             <h3>Download our App</h3>
                             <p>Download App for Android and ios mobile device</p>
                             <div className="app-logo">
-                                <img src="C:/Users/Dell/Desktop/RedStore_Img/images/play-store.png"/>
-                                <img src="C:/Users/Dell/Desktop/RedStore_Img/images/app-store.png"/>
+                                <img style={{marginBottom: 22}} src={Download01}/>
+                                <img src={Download02}/>
                             </div>
                         </div>
                         <div className="footer-col-2">
-                            <img src="https://pnggrid.com/wp-content/uploads/2021/05/Amazon-Logo-Transparent-1024x310.png" width="125px"/>
+                            <img src={BrandLogo} width="125px"/>
                             <p>Our Purpose is to Sustainably Make the Pleasure and 
                             benefits of sports Accessible to the Many.</p>
                         </div>

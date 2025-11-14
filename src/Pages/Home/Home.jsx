@@ -1,6 +1,8 @@
 // import Categories from "./Categories/Categories.jsx"
 import ProductView from "./Product/ProductView.jsx"
 import OfferView from "./Offer/Offer.jsx"
+import Testimonial from "./Testimonial/Testimonial.jsx"
+import Brands from "./Brands/Brands.jsx"
 function Home () { 
     return (
         <div>
@@ -8,6 +10,8 @@ function Home () {
             {/* <Categories/> */}
             <ProductView/>
             <OfferView/>
+            <Testimonial/>
+            <Brands/>
         </div>
     )
 }
