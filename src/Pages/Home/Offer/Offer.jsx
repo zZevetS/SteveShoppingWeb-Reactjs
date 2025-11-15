@@ -16,10 +16,10 @@ function Offer (){
                 // Lay ngau nhien 1 index
                 // console.log(data.length)
                 const getRandomData = Math.floor(Math.random() * data.length)
-                console.log(getRandomData)
+                // console.log(getRandomData)
                 // Lay ra item thong qua index dc nhan
                 const getRandomItem = data[getRandomData]
-                console.log(getRandomItem)
+                // console.log(getRandomItem)
                 // 
                 setRandomData(getRandomItem)
             } catch (error) {

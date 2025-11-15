@@ -6,6 +6,7 @@ import Fashtion from "./Pages/Fashion/Fashtion.jsx";
 import Account from "./Pages/Account/Account.jsx";
 import Header from "./Pages/Header/Header.jsx";
 import Footer from "./Pages/Footer/Footer.jsx";
+import ProductDetail from "./Pages/Home/Product/ProductDetailView.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Header/>
             <Routes>
               <Route path="/" element={<Home/>}/>
+              <Route path="/product/:title" element ={<ProductDetail/>}/>
               <Route path="fashtion" element={<Fashtion/>}/>
               <Route path="electronic" element={<Electronic/>}/>
               <Route path="about" element={<About/>}/>

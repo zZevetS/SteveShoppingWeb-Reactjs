@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import {productList} from '../../../API/APIs.js'
+import { Link } from "react-router-dom"
 import "../Product/product.css"
 function ProductView (){
     const [getProduct, setGetProduct] = useState([])
@@ -20,7 +21,9 @@ function ProductView (){
             <h2 className="title">Feature Products</h2>
            <div className='container-product'>
                 {getProduct.map((curValue, index) => {
-                return <div key={index} className="small-container-product">
+                    // encodeURIComponent dung de tranh cac ki tu dac biet dung cho khoang trang trong URL
+                return <Link key={index} to={`/product/${encodeURIComponent(curValue.title)}`} className="small-container-product">
+                        <div>
                             <div className="row">
                                 <div className="col-4">
                                     <img className="product-image" src={curValue.image}/>
@@ -37,6 +40,7 @@ function ProductView (){
                                 </div>
                             </div>
                         </div>
+                </Link>
                 })}
            </div>
         </div>

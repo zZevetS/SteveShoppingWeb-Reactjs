@@ -30,6 +30,7 @@
 }
 .small-container-product{
     width: max-content;
+    color: black;
     margin: 50px;
     padding: 20px;
     border-radius: 12px;
@@ -37,13 +38,14 @@
 }
 .small-container-product:hover{
     width: max-content;
+    color: black;
     padding: 20px;
     transform: translateY(-10px);
     box-shadow: 0 10px 21px rgba(0,0,0,0.18);
     cursor: pointer;
 }
 .product-image{
-    width: 310px;
+    width: 325px;
     height: 350px;
     justify-content: center;
 }
